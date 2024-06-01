@@ -23,7 +23,7 @@
 }
 
 .header-links ul li img {
-    width: 20px;
+    width: 28px;
     margin-right:10px;
 }
 
@@ -93,7 +93,7 @@ nav ul li:last-child {
 }
 
 /* Estilo para las anclas*/
-.footer-nav ul li a, nav ul li a, .footer-redes ul li a {
+.footer-nav ul li a, nav ul li a, .footer-redes ul li a{
     color: #fff;
     text-decoration: none;
     font-size: 18px;
@@ -164,8 +164,17 @@ body{
     float: right;
 }
 
-/* Efecto para expandir imagen al pasar el cursor */
+.container {
+    margin-top: 50px;
+}
+.aboutus {
+    text-align: justify;
 
+}
+
+
+
+/* Efecto para expandir imagen al pasar el cursor */
 .hotel img:hover, .house img:hover, .camper img:hover {
     transform: scale(1.1); 
 }
